@@ -1,2 +1,33 @@
 # JavaCode
 JAVA 코드 관련
+
+## 수학
+
+
+## 문자
+
++ Character.isUpperCase()를 사용 대문자인지 구별
+
++ Character.isLowerCase()를 사용 소문자인지 구별
+
++ Character.isDigit()를 사용 숫자인지 구별
+
+```java
+public static void main(String[] args) {
+        char[] chars = {'A', 'a', '1'};
+
+        for (char c : chars) {
+            if (Character.isUpperCase(c))
+                System.out.println(c + "는 대문자입니다.");
+
+            if (Character.isLowerCase(c))
+                System.out.println(c + "는 소문자입니다.");
+
+            if (Character.isDigit(c))
+                System.out.println(c + "은 숫자입니다.");
+        }
+    }
+```
+
+##배열
+
