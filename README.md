@@ -6,6 +6,11 @@ JAVA 코드 관련
 
 ## 문자
 
+```java
+my_string.length() //문자열 길이
+my_string.charAt(i)//해당위치 문자
+```
+
 + Character.isUpperCase()를 사용 대문자인지 구별
 
 + Character.isLowerCase()를 사용 소문자인지 구별
