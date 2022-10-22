@@ -8,7 +8,7 @@ JAVA 코드 관련
 
 ```java
 my_string.length() //문자열 길이
-my_string.charAt(i)//해당위치 문자
+my_string.charAt(i)//해당위치 문자 char형이므로 String.valueOf()사용 
 my_string.toUpperCase() //대문자 변환
 my_string.toLowerCase() //소문자 변환
 ```
