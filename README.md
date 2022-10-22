@@ -6,6 +6,8 @@ JAVA 코드 관련
 
 ## 문자
 
+char 에서의 숫자 판별 = str.charAt(i)-'0'
+
 ```java
 my_string.length() //문자열 길이
 my_string.charAt(i)//해당위치 문자 char형이므로 String.valueOf()사용 
