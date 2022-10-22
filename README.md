@@ -41,6 +41,10 @@ for(int i = 0 ; i < my_string.length(); i++){
             }
         }
 ```
+#### 문자열 비교는 ==가 아닌 equals를 사용해야한다.
 
 ##배열
 
+```java
+arr.length // 
+```
