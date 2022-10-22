@@ -8,6 +8,8 @@ JAVA 코드 관련
 
 char 에서의 숫자 판별 = str.charAt(i)-'0'
 
+0123456 -> abcdefg (char)(str.charAt(i) + 49);
+
 ```java
 my_string.length() //문자열 길이
 my_string.charAt(i)//해당위치 문자 char형이므로 String.valueOf()사용 
@@ -40,6 +42,7 @@ for(int i = 0 ; i < my_string.length(); i++){
                 sum = sum + ((int)value - '0');
             }
         }
+
 ```
 #### 문자열 비교는 ==가 아닌 equals를 사용해야한다.
 
