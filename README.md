@@ -8,7 +8,7 @@ JAVA 코드 관련
 
 char 에서의 숫자 판별 = str.charAt(i)-'0'
 
-0123456 -> abcdefg (char)(str.charAt(i) + 49);
+0123456 -> abcdefg = (char)(str.charAt(i) + 49);
 
 ```java
 my_string.length() //문자열 길이
