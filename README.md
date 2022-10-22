@@ -22,18 +22,23 @@ my_string.toLowerCase() //소문자 변환
 ```java
 public static void main(String[] args) {
         char[] chars = {'A', 'a', '1'};
-
         for (char c : chars) {
             if (Character.isUpperCase(c))
                 System.out.println(c + "는 대문자입니다.");
-
             if (Character.isLowerCase(c))
                 System.out.println(c + "는 소문자입니다.");
-
             if (Character.isDigit(c))
                 System.out.println(c + "은 숫자입니다.");
         }
     }
+
+//
+for(int i = 0 ; i < my_string.length(); i++){
+            char value = my_string.charAt(i);
+            if(Character.isDigit(value)){
+                sum = sum + ((int)value - '0');
+            }
+        }
 ```
 
 ##배열
