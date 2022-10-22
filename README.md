@@ -30,8 +30,6 @@ public static void main(String[] args) {
             if (Character.isDigit(c))
                 System.out.println(c + "은 숫자입니다.");
         }
-    }
-
 //
 for(int i = 0 ; i < my_string.length(); i++){
             char value = my_string.charAt(i);
@@ -39,6 +37,7 @@ for(int i = 0 ; i < my_string.length(); i++){
                 sum = sum + ((int)value - '0');
             }
         }
+}
 ```
 
 ##배열
