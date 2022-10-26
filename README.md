@@ -3,6 +3,16 @@ JAVA 코드 관련
 
 # 수학
 
+## Math
+
+제곱근
+```java
+Math.sqrt(x)
+```
+제곱
+```java
+Math.pow(x, y)
+```
 
 # 문자
 
