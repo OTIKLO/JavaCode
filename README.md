@@ -1,10 +1,10 @@
 # JavaCode
 JAVA 코드 관련
 
-## 수학
+# 수학
 
 
-## 문자
+# 문자
 
 char 에서의 숫자 판별 = str.charAt(i)-'0'
 
@@ -65,7 +65,7 @@ for(int i = 0 ; i < my_string.length(); i++){
 특정 문자나 문자열이 앞에서부터 처음 발견되는 인덱스를 반환하며 만약 찾지 못했을 경우 "-1"을 반환합니다.
 
 
-## 배열
+# 배열
 
 ```java
 arr.length // 
