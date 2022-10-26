@@ -46,6 +46,24 @@ for(int i = 0 ; i < my_string.length(); i++){
 ```
 #### 문자열 비교는 ==가 아닌 equals를 사용해야한다.
 
+### 중복된 문자 제거
+
+```java
+ public String solution(String my_string) {
+        String answer = "";
+        for (int i = 0; i < my_string.length(); i++) {
+			if(my_string.indexOf(my_string.charAt(i)) == i){
+                answer += my_string.charAt(i);
+            }
+	}
+        return answer;
+    }
+```
+
++ indexOf
+
+특정 문자나 문자열이 앞에서부터 처음 발견되는 인덱스를 반환하며 만약 찾지 못했을 경우 "-1"을 반환합니다.
+
 ##배열
 
 ```java
