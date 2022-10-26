@@ -14,6 +14,21 @@ Math.sqrt(x)
 Math.pow(x, y)
 ```
 
+정수내림차순
+```java
+import java.util.*;
+class Solution {
+    public long solution(long n) {
+        String[] list = String.valueOf(n).split("");
+        Arrays.sort(list);
+        
+        StringBuilder sb = new StringBuilder();
+        for (String aList : list) sb.append(aList);
+        return Long.parseLong(sb.reverse().toString());
+    }
+}
+```
+
 # 문자
 
 char 에서의 숫자 판별 = str.charAt(i)-'0'
