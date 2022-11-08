@@ -1,5 +1,5 @@
 # JavaCode
-JAVA 코드 관련
+JAVA 코드 관련 정리
 
 # 수학
 
